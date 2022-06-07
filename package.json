@@ -1,0 +1,20 @@
+{
+  "name": "webd",
+  "version": "1.0.0",
+  "description": "web_d",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karthik-2002-git/webD_package.git"
+  },
+  "author": "shrriam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karthik-2002-git/webD_package/issues"
+  },
+  "homepage": "https://github.com/Karthik-2002-git/webD_package#readme"
+}
