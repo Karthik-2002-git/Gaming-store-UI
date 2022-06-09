@@ -1,0 +1,26 @@
+{
+  "name": "webd_package",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karthik-2002-git/webD_package.git"
+  },
+  "author": "Shriram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karthik-2002-git/webD_package/issues"
+  },
+  "homepage": "https://github.com/Karthik-2002-git/webD_package#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
