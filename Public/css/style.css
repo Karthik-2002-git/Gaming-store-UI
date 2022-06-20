@@ -530,10 +530,16 @@ footer p{
 }
 
 footer a{
+
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+/*
     color: #fddde4;
     font-size: 13px;
     text-decoration: none;
     
+*/
     margin-bottom: 10px;
 }
 footer .follow{
