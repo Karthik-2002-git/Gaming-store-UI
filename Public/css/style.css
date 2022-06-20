@@ -9,13 +9,13 @@ h2{
     font-size: 46px;
     line-height: 54px;
     margin: 0 0;
-    color: black;
+    color: white;
 }
 
 h4{
     font-size: 20px;
     margin: 0 0;
-    color: black;
+    color: white;
 }
 
 h6{
@@ -68,7 +68,10 @@ button.white{
 }
 
 body{
-    width: 100%;
+    background-attachment: fixed;
+    background-image: url("../images/bg.jpg");
+    object-fit: fill;
+    background-repeat: no-repeat;
 }
 
 /*header*/
@@ -101,7 +104,7 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: black;   
+    color: white;   
     transition: 0.3s ease;
 }
 
@@ -134,16 +137,25 @@ body{
 }
 
 #hero h4 {
+    color: rgb(252, 216, 216);
     padding-bottom: 15px;
 }
+#hero h2 {
+    color: whitesmoke;
+    
+}
+
 
 #hero h1 {
-    color: olive;
+    color: whitesmoke;
 }
 
 #hero button
 {   
-   background-image: url();
+    
+    
+  background-position: 50px 150px;
+   background-image: url("../images/button.png");
    border:0;
    background-color: transparent;
    color: #c00000;
@@ -322,12 +334,12 @@ body{
     background-position: center;
 }
 #banner h4{
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 16px;
 }
 
 #banner h2{
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 30px;
     padding: 10px 0;
 }
@@ -518,9 +530,10 @@ footer p{
 }
 
 footer a{
+    color: #fddde4;
     font-size: 13px;
     text-decoration: none;
-    color: black;
+    
     margin-bottom: 10px;
 }
 footer .follow{
